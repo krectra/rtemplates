@@ -1,0 +1,32 @@
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+max_line_length = 89
+tab_width = 4
+ij_visual_guides = 89
+ij_wrap_on_typing = true
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.json]
+indent_size = 2
+
+
+[{*.bash,*.zsh,*.sh}]
+indent_size = 2
+tab_width = 2
+
+[{*.pyw,*.py}]
+max_line_length = 89
+
+# Makefiles always use tabs for indentation
+[Makefile]
+indent_style = tab
+
+[{*.yml,*.yaml}]
+indent_size = 2
+
+[{docs/**.txt, docs/**.rst}]
+max_line_length = 89
